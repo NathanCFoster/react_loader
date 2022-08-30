@@ -20,10 +20,10 @@
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid rgb(255, 255, 255);
+  border: 8px solid #03A9F4;
   border-radius: 50%;
   animation: lds-ring 1.4s cubic-bezier(0.75, 0, 0.65, 0.75) infinite;
-  border-color: #fff transparent;
+  border-color: #03A9F4 transparent;
 }
 
 .lds-ring div:nth-child(1) {
@@ -47,10 +47,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
-
-.background {
-  background-color: #282c34;
-  height: 100vh;
-  width: 100vw;
 }
