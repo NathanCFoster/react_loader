@@ -3,7 +3,7 @@
 ### Usage
 
 ```js
-import Loader from "react_loader";
+import Loader from "reactjs-custom-loader";
 
 ...
 
