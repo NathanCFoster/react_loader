@@ -1,6 +1,6 @@
 {
   "name": "reactjs-custom-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fun custom loader with animation for React apps",
   "main": "index.js",
   "scripts": {
