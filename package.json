@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf dist && NODE_EBV=production babel index.jsx --out-dir dist --copy-files"
+    "build": "rm -rf dist && NODE_EBV=production babel index.tsx --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",

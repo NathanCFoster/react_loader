@@ -1,10 +1,12 @@
 import React from "react";
 import "./index.css";
 
-const Loader = () => {
+declare type HexColor = `#${string}`;
+
+const Loader = ({ color }: { color: HexColor }) => {
   return (
     <div className="loader">
-      <div class="lds-ring">
+      <div className="lds-ring" color={color}>
         <div></div>
         <div></div>
       </div>
